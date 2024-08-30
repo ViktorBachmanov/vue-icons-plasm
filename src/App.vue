@@ -5,6 +5,7 @@ import IconTelegram from './components/IconTelegram.vue'
 import IconUnlock from './components/IconUnlock.vue'
 import IconUser from './components/IconUser.vue'
 import IconX from './components/IconX.vue'
+import IconMagnifyingGlass from './components/IconMagnifyingGlass.vue'
 </script>
 
 <template>
@@ -14,5 +15,6 @@ import IconX from './components/IconX.vue'
     <IconUnlock style="color: blue" />
     <IconUser style="color: orange" />
     <IconX style="color: red" />
+    <IconMagnifyingGlass style="color: magenta" />
   </div>
 </template>

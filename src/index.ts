@@ -3,5 +3,6 @@ import IconTelegram from "./components/IconTelegram.vue";
 import IconUnlock from "./components/IconUnlock.vue";
 import IconUser from "./components/IconUser.vue";
 import IconX from "./components/IconX.vue";
+import IconMagnifyingGlass from "./components/IconMagnifyingGlass.vue";
 
-export { IconEyeSlash, IconTelegram, IconUnlock, IconUser, IconX };
+export { IconEyeSlash, IconTelegram, IconUnlock, IconUser, IconX, IconMagnifyingGlass };
