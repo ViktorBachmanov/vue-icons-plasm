@@ -37,10 +37,4 @@ svg.disabled {
   opacity: 0.5;
   pointer-events: none;
 }
-svg.left {
-  transform: rotateZ(180deg);
-}
-/* svg.down {
-  transform: rotateZ(180deg);
-} */
 </style>
