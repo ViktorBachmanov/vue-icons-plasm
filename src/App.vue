@@ -25,11 +25,11 @@ function handleIncrementArrowAngle() {
     <IconUser style="color: orange" />
     <IconX style="color: red" />
     <IconMagnifyingGlass style="color: magenta" />
-    <IconArrowDeg :angleDeg="arrowAngle" />
+    <IconArrowDeg :angle="arrowAngle" />
 
     <button
       @click="handleIncrementArrowAngle"
       class="py-2 bg-stone-700 rounded-lg"
-    >angle +</button>
+    >arrowAngle ++</button>
   </div>
 </template>

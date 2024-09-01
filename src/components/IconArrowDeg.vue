@@ -1,6 +1,6 @@
 <script setup>
 const props = defineProps({
-  angleDeg: {
+  angle: {
     type: Number,
     default: 0, // right
   },
@@ -19,7 +19,7 @@ const props = defineProps({
     stroke-width="2" 
     stroke="currentColor"
     :class="{ disabled: disabled }" 
-    :style="{ transform: `rotateZ(${angleDeg}deg)` }"
+    :style="{ transform: `rotateZ(${angle}deg)` }"
   >
     <path d="M5 12H19" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M12 5L19 12L12 19" stroke-linecap="round" stroke-linejoin="round"/>
