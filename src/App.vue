@@ -9,6 +9,9 @@ import IconUser from './components/IconUser.vue'
 import IconX from './components/IconX.vue'
 import IconMagnifyingGlass from './components/IconMagnifyingGlass.vue'
 import IconArrowDeg from './components/IconArrowDeg.vue'
+import IconUsers from './components/IconUsers.vue'
+import IconLayers from './components/IconLayers.vue'
+import IconFourSquare from './components/IconFourSquare.vue'
 
 const arrowAngle = ref(0)
 
@@ -26,6 +29,9 @@ function handleIncrementArrowAngle() {
     <IconX style="color: red" />
     <IconMagnifyingGlass style="color: magenta" />
     <IconArrowDeg :angle="arrowAngle" />
+    <IconUsers />
+    <IconLayers />
+    <IconFourSquare />
 
     <button
       @click="handleIncrementArrowAngle"
