@@ -12,6 +12,7 @@ import IconArrowDeg from './components/IconArrowDeg.vue'
 import IconUsers from './components/IconUsers.vue'
 import IconLayers from './components/IconLayers.vue'
 import IconFourSquare from './components/IconFourSquare.vue'
+import IconFolder from './components/IconFolder.vue'
 
 const arrowAngle = ref(0)
 
@@ -32,6 +33,7 @@ function handleIncrementArrowAngle() {
     <IconUsers />
     <IconLayers />
     <IconFourSquare />
+    <IconFolder />
 
     <button
       @click="handleIncrementArrowAngle"
